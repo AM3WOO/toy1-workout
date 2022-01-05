@@ -6,94 +6,136 @@
     <title>toy1</title>
     <style>
       h1 {
+        width: 572.922;
         bottom: 50px;
-        font-size: 75px;
+        font-size: 105px;
+        font-weight: 900px;
+        letter-spacing: -6px;
         text-align: left;
         margin: 0;
-        padding-top:13px;
-        padding-bottom:23px;
-        padding-left: 50px;
+        margin-top: 15px;
+        padding-top:0px;
+        padding-left: 30px;
         padding-right: 90px;
+        padding-bottom: 0px;
         position: absolute;
         top: 0px;
         z-index: 1;
-        letter-spacing: 2px;
-        height: 80px;
-
+        height: 144px;
+        background-color: rgb(201,0,0);
+      }
+       h1 a {
+        text-decoration: none;
+        color: black;
+        font-style: normal;
+      }
+      h3 {
+        position: absolute;
+        left: 96%;
+        top: 10px;
+        font-size: 20px;
+        margin: 0;
       }
       iframe {
-        position: relative;
-        top:70px;
+        position:absolute;
+        top:96px;
+        z-index: 0;
       }
-      a {
-        color:gray;
-        text-decoration:none;
-      }
-      #titl a{
-        color: white;
-      }
-      #titl ol {
+      ol {
         list-style-type:none;
-        font-size:35px;
+        font-size:50px;
         font-weight: 700;
         font-style: italic;
         width: 150px;
         padding-left: 40px;
-        padding-right: 75px;
+        padding-right: 40px;
         padding-top: 30px;
-        padding-bottom: 200%;
+        padding-bottom: 30px;
         margin: 0;
         line-height: 3;
-        position: relative;
+        position: absolute;
+        top: 170px;
         bottom: 680px;
+        z-index: 1;
       }
-      #rid {
-        display:grid;
-        grid-template-columns:300px 1fr;
+      ol a {
+        text-decoration:none;
+        color: white;
       }
-      #imga {
-        text-align: center;
-        padding-top: 40px;
+      #pic {
+        bottom: 335px;
+        width: 700px;
       }
-      #imga ol {
+      #nex {
+        display: grid;
+        grid-template-columns: 750px 1fr;
+        top: 960px;
+        left: 15px;
+        position: absolute;
+        background-color: rgb(246 246 246);
+        width: 99.25%;
+        height: 800px;
+      }
+      #tex {
+        position: relative;
+        height : 760px;
+      }
+      ul {
+        font-size: 37px;
+        width : 100%;
+        top: 0;
+        font-weight: bold;
         list-style-type:none;
-        font-size: 25px;
-        font-weight: 600;
         line-height: 3;
+        font-style: italic;
+        letter-spacing: -5px;
+        word-spacing: -1px;
+        padding-left: 50px;
+        line-height: 4.5;
       }
+      #all {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        padding-top:35px;
+      }
+    @media (max-width:1800px) {
+      #nex {
+        display: block;
+      }}
+    @media (max-width:1070px)  {
+      ul {
+        display: none;
+      }}
+    @media (max-width:720px) {
+      #pic {
+        display:none;
+      }}
       </style>
   </head>
-
   <body>
-    <h1><a href="index.html">WORKOUT</a></h1>
-    <iframe width="100%" height="800" src="https://www.youtube.com/embed/Lqigba5f_KE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   <div id="rid">
-    <div id=titl>
-    <ol>
-      <li><a href="grid1.html">ROUTINE</a></li>
-      <li><a href="grid2.html">NUTRITION</a></li>
-      <li><a href="grid3.html">BODY<a/></li>
-      <li><a href="grid4.html">1RM<a/></li>
+    <h1><a href="index.html"><u>WORKOUT</u></a></h1>
+    <h3>LEE<br>SANG<br>WOO</h3>
+    <iframe width="100%" height="800" src="https://www.youtube.com/embed/Lqigba5f_KE?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <ol>
+        <li><a href="grid1.html">ROUTINE</a></li>
+        <li><a href="grid2.html">NUTRITION</a></li>
+        <li><a href="grid3.html">BODY<a/></li>
+        <li><a href="grid4.html">1RM<a/></li>
       </ol>
-    </div>
-
-    <div id=imga>
-        <ol>
-        <li>시간이 나서 운동하는 게 아니라 시간을 내서 운동해야 한다.</li>
-        <li>'한계'라고 느낄 때 '한 개'를 더 해야 성장한다.</li>
-        <li>지금 내가 들고 있는 무게는 부모님의 삶의 무게에 비하면 아무 것도 아니다.</li>
-        <li>건강해지려면 운동해야 하고 운동하려면 건강해야 한다.</li>
-        </ol>
-      <img src="bench-press.jpg" width="70%">
-    </div>
-
+  <div id=nex>
+   <div id=pic>
+      <img src="bench-press.jpg" width="700px" height="800px">
    </div>
-   <!--
-   명언 간격 띄우기
-   html파일 더 만들어서 항목 누르면 그 페이지로 이동하게하기 (새탭x)
-   항목 추가하기 (유튜브 잠백이카페 등 )
-   배경 바꾸는거 알아보기
-   제목부분 꾸미기
-   -->
-  </body>
+   <div id=tex>
+    <ul>
+    <div id=all>
+      <div><li id=one>시간이 나서 운동하는 게 아니라 시간을 내서 운동해야 한다.</li></div>
+      <div><li id=two>'한계'라고 느낄 때 '한 개'를 더 해야 성장한다.</li></div>
+      <div><li id=three>지금 내가 들고 있는 무게는 부모님의 삶의 무게에 비하면 아무것도 아니다.</li></div>
+      <div><li id=four>건강해지려면 운동해야 하고 운동하려면 건강해야 한다.</li></div>
+    </div>
+    </ul>
+   </div>
+  </div>
+ </body>
 </html>
