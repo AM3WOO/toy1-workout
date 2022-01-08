@@ -1,0 +1,23 @@
+#ol {
+  height: 610px;
+  width: 300px;
+}
+ol a {
+  color: black;
+}
+#p {
+  display: inline;
+  position: absolute;
+  top: 236px;
+  bottom: 0px;
+  right: 0px;
+  left: 405px;
+  height: 534px;
+  width: 1300px;
+  border-left: 3px gray solid;
+  padding-left: 50px;
+  font-size: 30px;
+}
+h2 {
+  margin-top: 7px;
+}
